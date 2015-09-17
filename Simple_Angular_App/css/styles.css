@@ -1,0 +1,67 @@
+
+/*Main body styles*/
+
+body{
+    background-color: #87ceec;
+    text-align: center;
+
+}
+
+
+/*main header styles*/
+
+h1 {
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.5em;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+
+}
+
+/*Table styles*/
+
+table,td,tr,p{
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+/*Input styles with animation*/
+
+input[type=text]{
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+}
+
+
+input[type=text]:focus{
+
+    background-color:#ecb940;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+
+}
+
+
+input[type=submit] {
+    border: 0;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+}
+
+
+/*Could not figure out how to override angular to display list items in the center.*/

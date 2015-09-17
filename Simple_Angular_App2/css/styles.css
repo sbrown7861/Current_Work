@@ -1,0 +1,71 @@
+body{
+    background-color: #514a48;
+    padding: 10%;
+    margin: 8%;
+}
+
+form{
+    background-color: #333333;
+    box-shadow: #4e090e 2px 2px;
+}
+
+label,input{
+    margin: 3%;
+}
+
+
+#info{
+    margin: 5%;
+
+}
+
+label{
+    color: #ffffff;
+    padding: 3%;
+}
+
+/*Input styles with animation*/
+
+input[type=text]{
+    color: #51CBEE;
+    border: 0;
+    border-radius: 5px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+}
+
+
+input[type=text]:focus{
+
+    background-color:rgba(6, 21, 17, 0.38);
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+
+}
+
+
+input[type=submit] {
+    background-color: #333333;
+    border: 0;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+}
+
+h1{
+    font-size: 3em;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 2em;
+    color: #ffffff;
+}

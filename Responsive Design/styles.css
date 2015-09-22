@@ -1,0 +1,329 @@
+/*Styles*/
+
+
+body{
+background-image: url(images/body_bg.jpg);
+
+}
+
+
+#body{
+    width: 90%;
+    padding:5%;
+    margin: 3%;
+
+
+}
+
+ul > li {
+
+    font-family: monospace;
+    list-style:none;
+    padding: 2.465%;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-style: oblique;
+    display: inline;
+    text-align: center;
+
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+
+
+
+
+nav{
+    display: block;
+    float: left;
+    height: 0.192%;
+    margin: 0 auto;
+    min-width: 90%;
+    text-align: center;
+    border: double;
+    border-radius: 20%;
+    color: #fff;
+    clear: both;
+    background-image: url(images/Nav_bg.jpg);
+
+}
+
+
+
+h1{
+    font-size: 3em;
+    padding: 3%;
+    color:#008490;
+
+}
+
+h2{
+    font-size: 2em;
+    color: #000;
+
+
+}
+
+
+p{
+    color: #fff;
+    font-size: 1em;
+
+
+}
+
+
+a:link, a:visited {
+width: 100%;
+font-weight: bold;
+color: #FFFFFF;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+a:hover, a:active {
+color: #000;
+}
+
+
+/*Table styling*/
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    float: left;
+    clear: both;
+    margin:2.465% ;
+
+}
+
+
+
+table, th, td, tr {
+    border: 3px solid black;
+    padding: 1.056%;
+    width: 50%;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+table th{
+    text-align: left;
+}
+
+table td{
+    text-align: center;
+}
+
+table tr #Price{
+    text-align: right;
+    padding: 1.056%;
+}
+
+
+table tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.65);
+}
+table tr:nth-child(odd) {
+    background-color: rgba(190, 189, 195, .25);
+}
+
+
+table tr:hover {
+    background-color:#008490;
+}
+
+
+/*End table styling*/
+
+
+
+/*Form Styling*/
+
+form{
+    border: 3px solid black;
+    padding: 1.056%;
+    width: 50%;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+
+
+}
+
+
+input[type=text]{
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+}
+
+
+input[type=text]:focus{
+
+    background-color: #008490;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+
+}
+
+
+input[type=submit] {
+    border: 0;
+    border-radius: 5px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+
+    -webkit-transition:all 1s ease.5s;
+
+    -moz-transition:all 1s ease.5s;
+
+    -o-transition:all 1s ease.5s;
+
+    transition: all 1s ease.5s;
+
+
+    -moz-perspective: 100px;
+
+    -webkit-perspective: 100px;
+
+    -o-perspective:100px;
+
+    perspective: 100px;
+
+
+}
+
+
+
+
+input[type=submit]:hover {
+
+
+    color: #008490;
+
+
+    -webkit-transform: rotate(360deg) scale(1.5) skew(5deg);
+
+    -ms-transform: rotate(360deg) scale(1.5) skew(5deg);
+
+    -o-transform: rotate(360deg) scale(1.5) skew(5deg);
+
+    transform: rotate(360deg) scale(1.5) skew(5deg);
+
+
+
+
+
+}
+
+#SubmitButton{
+    position: relative;
+
+    padding: 2.465%;
+    margin: 2.465% auto;
+
+}
+
+
+
+
+
+
+
+/*Gallery Styling*/
+
+img{
+    display: block;
+    clear: both;
+    padding: 2.465%;
+    margin: 2.465% auto;
+    border: solid #000000 2px;
+    background-color: #fff;
+
+
+}
+
+#Video{
+    display: block;
+    clear: both;
+    padding: 2.465%;
+    margin: 2.465% auto;
+
+}
+
+
+/*Media Queries*/
+
+
+/*Mobile device media queries*/
+@media only screen and (min-width: 320px), only screen and (max-width: 480px) {
+    body{
+        background: rgba(89, 89, 89, .85);
+        padding: inherit;
+        margin: auto;
+
+    }
+	
+	table{
+		display:none
+		}
+
+
+}
+
+/*Tablet media queries*/
+
+@media only screen and (min-width : 768px), only screen and (max-width : 1024px) {
+    body{
+        background: rgba(89, 89, 89, .85);
+        padding: inherit;
+        margin: auto;
+
+    }
+
+
+    table {
+        border-collapse: collapse;
+        table-layout: fixed;
+        float: left;
+        clear: both;
+        margin:2.465% ;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 992px){
+
+    body{
+        padding: 1%;
+        margin: 3%;
+        background-image: url(images/body_bg.jpg);;
+        color: #000000;
+
+    }
+
+
+
+    }
+}
+
+
